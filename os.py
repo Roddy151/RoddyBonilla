@@ -8,6 +8,7 @@ print("Directorio de trabajo actual", cwd)
 txt_files = [f for f in os.listdir('.') if f.endswith('.txt')]
 print("Los Archivos txt: ", txt_files)
 
+#Rename file
 os.rename('Cuento.txt', 'caperucita.txt')
 print("El archivo renombrado: ")
 
