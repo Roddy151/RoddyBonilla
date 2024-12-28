@@ -6,5 +6,3 @@ def count_sales(orders: list[str]) -> Counter:
 orders = ['Laptop', 'Smarphone','Laptop', 'Tablet', 'Tablet', 'Iphone']
 result = count_sales(orders)
 print(result)
-
-print('Hola Anissa')
